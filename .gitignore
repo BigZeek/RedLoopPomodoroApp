@@ -13,7 +13,7 @@ obj/
 node_modules/
 
 # Exclude libraries that are not needed in the repo (e.g., Bootstrap, other 3rd-party libraries)
-lib/bootstrap/dist/
+/lib/bootstrap/dist/
 
 # IDE-specific files (Visual Studio, VSCode)
 .vscode/
