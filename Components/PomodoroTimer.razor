@@ -1,0 +1,54 @@
+@code {
+    private int workTimeLeft;
+    private int breakTimeLeft;
+    private bool isRunning = false;
+    private bool isBreakTime = false;
+    private string workTimeInput = "";
+    private string breakTimeInput = "";
+
+    //Displays work or break times accordingly
+    private string DisplayTime => isBreakTime
+    ? $"{breakTimeLeft / 60:D2}:{breakTimeLeft % 60:D2}"
+    : $"{workTimeLeft / 60:D2}:{workTimeLeft % 60:D2}";
+    private int workTime = 25 * 60; // Set Default work time
+    private int breakTime = 5 * 60; // Set default break time
+
+    private async Task StartPauseTimer()
+    {
+        isRunning = !isRunning;
+        while (isRunning && workTimeLeft > 0)
+        {
+            await Task.Delay(1000);
+            workTimeLeft--;
+            StateHasChanged();
+        }
+    }
+
+    protected override void OnInitialized(){
+        workTimeLeft = workTime;
+        breakTimeLeft = breakTime;
+    }
+
+    private void SaveTimers(){
+        if(int.TryParse(workTimeInput, out int w)) {workTime = w * 60;}
+        if(int.TryParse(breakTimeInput, out int b)) {breakTime = b * 60;}
+
+        if(!isRunning){
+            workTimeLeft = workTime;
+            breakTimeLeft = breakTime;
+        }
+    }
+}
+
+
+<input @bind="workTimeInput" placeholder="Work (min)" class="form-control" />
+<input @bind="breakTimeInput" placeholder="Break (min)" class="form-control" />
+
+<div class="container text-center mt-5">
+    <h1 class="mb-3">Pomodoro Timer</h1>
+    <h2 class="display-4">@DisplayTime</h2>
+    <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
+        @(isRunning ? "Pause" : "Start")
+    </button>
+</div>
+
