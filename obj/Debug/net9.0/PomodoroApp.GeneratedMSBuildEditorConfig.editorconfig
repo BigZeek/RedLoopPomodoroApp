@@ -28,12 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Zak/PomodoroApp/Components/FloatingPomodoroTimer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGbG9hdGluZ1BvbW9kb3JvVGltZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zak/PomodoroApp/Components/PomodoroTimer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb21vZG9yb1RpbWVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zak/PomodoroApp/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zak/PomodoroApp/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zak/PomodoroApp/Pages/Weather.razor]

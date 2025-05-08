@@ -1,0 +1,40 @@
+@page "/settings"
+@using PomodoroApp.Services;
+@inject TimerSettingsService TimerService
+
+<PageTitle>Settings</PageTitle>
+
+<h1>Settings</h1>
+
+<div>
+    <label>Work Time (in minutes):</label>
+    <input @bind="workTimeInput" placeholder="Work (min)" type="number" />
+</div>
+
+<div>
+    <label>Break Time (in minutes):</label>
+    <input @bind="breakTimeInput" placeholder="Break (min)" type="number" />
+</div>
+
+<button @onclick="SaveTimers">Save Settings</button>
+<p>@message</p>
+
+@code {
+    private int workTimeInput;
+    private int breakTimeInput;
+    private int savedWorkTime;
+    private int savedBreakTime;
+    private string message = string.Empty;
+
+    protected override void OnInitialized(){
+        workTimeInput = TimerService.WorkTimeMinutes;
+        breakTimeInput = TimerService.BreakTimeMinutes;
+    }
+    private void SaveTimers(){
+        savedWorkTime = workTimeInput;
+        savedBreakTime = breakTimeInput;
+        TimerService.UpdateTimes(savedWorkTime, savedBreakTime);
+        message = "Settings saved!";
+    }
+    
+}

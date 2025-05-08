@@ -1,0 +1,30 @@
+@inject PomodoroTimerService PomodoroService
+
+<div class="floating-timer">
+    <div>
+        @if (PomodoroService.IsWorkInterval) {
+            <span>Work:</span>
+        }
+        else {
+            <span>Break:</span>
+        }
+        <span>@DisplayTime</span>
+    </div>
+</div>
+
+@code {
+    private string DisplayTime => 
+    $"{PomodoroService.TimeLeft / 60:D2}:{PomodoroService.TimeLeft % 60:D2}";
+
+    protected override void OnInitialized() {
+        PomodoroService.OnTick += HandleTick;
+    }
+
+    private void HandleTick() {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose() {
+        PomodoroService.OnTick -= HandleTick;
+    }
+}

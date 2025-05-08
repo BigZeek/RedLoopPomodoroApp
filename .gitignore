@@ -2,7 +2,7 @@
 bin/
 obj/
 
-# Exclude generated files (e.g., from build)
+# Exclude generated files 
 *.dll
 *.exe
 *.pdb
@@ -12,15 +12,14 @@ obj/
 # Exclude node_modules and other dependency folders if you have a front-end build process
 node_modules/
 
-# Exclude libraries that are not needed in the repo (e.g., Bootstrap, other 3rd-party libraries)
-/lib/bootstrap/dist/
-
+# Exclude libraries that are not needed in the repo 
+lib/
 # IDE-specific files (Visual Studio, VSCode)
 .vscode/
 .idea/
 *.vsconfig
 
-# OS-specific files (e.g., macOS and Windows)
+# OS-specific files 
 .DS_Store
 Thumbs.db
 
