@@ -804,7 +804,6 @@ C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\scopedcss\bundle\PomodoroApp.styles.cs
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\scopedcss\projectbundle\PomodoroApp.bundle.scp.css
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\blazor.build.boot-extension.json
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\blazor.boot.json
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\81t3mjpnq8-8rbvw3on5j.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\hsblbqc11y-c2jlpeoesf.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\za6v12gh18-aexeepp0ev.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\2wa86x2qw7-ausgxo2sd3.gz
@@ -1074,10 +1073,11 @@ C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\0fki2xfqrb-cymp1amu5g.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\6mim8gd2ap-4b0q7hpvp2.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\yrams5t6gq-86yp39hm9n.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\e6noq5axrr-86yp39hm9n.gz
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.mpeix1qtlq.pdb
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.xjevwbuc69.wasm
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.xjevwbuc69.wasm.gz
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.mpeix1qtlq.pdb.gz
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\4e5whkcos6-xjevwbuc69.gz
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\9oi7drdp1d-mpeix1qtlq.gz
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\izl1mpc4h9-3h8j71u3mq.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\81t3mjpnq8-nyrf3dblbe.gz
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.zm73bqye8h.pdb
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.0sgkoa8isp.wasm
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.0sgkoa8isp.wasm.gz
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.zm73bqye8h.pdb.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\4e5whkcos6-0sgkoa8isp.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\9oi7drdp1d-zm73bqye8h.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\izl1mpc4h9-ew25f9onxo.gz

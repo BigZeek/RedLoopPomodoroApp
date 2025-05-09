@@ -5,7 +5,7 @@ public class PomodoroTimerService {
     public event Action? OnTick;
 
     public bool IsRunning {get; set;} = false;
-    public bool IsWorkInterval {get; set;} = false;
+    public bool IsWorkInterval {get; set;} = true;
 
     public int WorkTimeSeconds {get; set;}
     public int BreakTimeSeconds {get; set;}
@@ -17,6 +17,8 @@ public class PomodoroTimerService {
     public PomodoroTimerService(TimerSettingsService settings) {
         _settings = settings;
         setTimesFromSettings();
+
+        _settings.OnSettingsChanged += HandleSettingsChanged;
     }
 
     private void setTimesFromSettings() {
@@ -44,6 +46,13 @@ public class PomodoroTimerService {
         else {
             IsWorkInterval = !IsWorkInterval;
             TimeLeft = IsWorkInterval ? WorkTimeSeconds : BreakTimeSeconds;
+            OnTick?.Invoke();
+        }
+    }
+
+    private void HandleSettingsChanged() {
+        if(!IsRunning) {
+            setTimesFromSettings();
             OnTick?.Invoke();
         }
     }

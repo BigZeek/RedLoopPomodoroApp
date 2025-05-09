@@ -6,50 +6,33 @@
     private int workTimeLeft;
     private int breakTimeLeft;
     private bool isRunning = false;
-    private bool isBreakTime = false;
     private bool isWorkInterval = true;
     //Displays work or break times accordingly
-    private string DisplayTime => isWorkInterval
-        ? $"{workTimeLeft / 60:D2}:{workTimeLeft % 60:D2}"
-        : $"{breakTimeLeft / 60:D2}:{breakTimeLeft % 60:D2}";
-    private int workTime = 25 * 60; // Set Default work time
-    private int breakTime = 5 * 60; // Set default break time
-    
+    private string DisplayTime => $"{PomodoroService.TimeLeft / 60:D2}:{PomodoroService.TimeLeft % 60:D2}";
+
     private void ResetWorkTime(){
         workTimeLeft = TimerService.WorkTimeMinutes * 60;
     }
     private void ResetBreakTime(){
         breakTimeLeft = TimerService.BreakTimeMinutes * 60;
     }
-    private async Task StartPauseTimer() //Refactor to not reset on pause/restart
+
+    private void ResetIntervals() {
+        workTimeLeft = TimerService.WorkTimeMinutes * 60;
+        breakTimeLeft = TimerService.BreakTimeMinutes * 60;
+    }
+    private async Task StartPauseTimer() 
     {
-        isRunning = !isRunning;
+        if(PomodoroService.IsRunning) {
+            PomodoroService.Pause();
+        } else  
+            PomodoroService.Start();
         
-        while(isRunning){
-            if(isWorkInterval){
-                ResetWorkTime();
-                while(isRunning && workTimeLeft > 0){
-                    await Task.Delay(1000);
-                    workTimeLeft--;
-                    StateHasChanged();
-                }
-            }
-            else {
-                ResetBreakTime();
-                while(isRunning && breakTimeLeft > 0){
-                    await Task.Delay(1000);
-                    breakTimeLeft--;
-                    StateHasChanged();
-                }
-            }
-
-        }
-
-        isWorkInterval = !isWorkInterval;
     }
 
     protected override void OnInitialized(){
-
+        ResetWorkTime();
+        ResetBreakTime();
         PomodoroService.OnTick += HandleTick;
     }
 
@@ -64,6 +47,6 @@
     <h1 class="mb-3">Pomodoro Timer</h1>
     <h2 class="display-4">@DisplayTime</h2>
     <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
-        @(isRunning ? "Pause" : "Start")
+        @(PomodoroService.IsRunning ? "Pause" : "Start")
     </button>
 </div>
