@@ -1074,10 +1074,10 @@ C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\6mim8gd2ap-4b0q7hpvp2.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\yrams5t6gq-86yp39hm9n.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\e6noq5axrr-86yp39hm9n.gz
 C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\81t3mjpnq8-nyrf3dblbe.gz
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.zm73bqye8h.pdb
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.0sgkoa8isp.wasm
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.0sgkoa8isp.wasm.gz
-C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.zm73bqye8h.pdb.gz
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\4e5whkcos6-0sgkoa8isp.gz
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\9oi7drdp1d-zm73bqye8h.gz
-C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\izl1mpc4h9-ew25f9onxo.gz
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.hxsox67guq.pdb
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.x9qksexqh2.wasm
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.x9qksexqh2.wasm.gz
+C:\Users\Zak\PomodoroApp\bin\Debug\net9.0\wwwroot\_framework\PomodoroApp.hxsox67guq.pdb.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\4e5whkcos6-x9qksexqh2.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\9oi7drdp1d-hxsox67guq.gz
+C:\Users\Zak\PomodoroApp\obj\Debug\net9.0\compressed\izl1mpc4h9-12f0nj8118.gz

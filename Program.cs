@@ -8,6 +8,6 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-builder.Services.AddScoped<TimerSettingsService>(); //Register service
+builder.Services.AddScoped<TimerSettingsService>();
 builder.Services.AddScoped<PomodoroTimerService>();
 await builder.Build().RunAsync();

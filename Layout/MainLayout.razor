@@ -1,4 +1,5 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -11,7 +12,17 @@
 
         <article class="content px-4">
             @Body
-            <PomodoroApp.Components.FloatingPomodoroTimer />
+            @if (ShowFloatingTimer) {
+                <PomodoroApp.Components.FloatingPomodoroTimer />
+            }
         </article>
     </main>
 </div>
+
+@code {
+    protected override void OnParametersSet() {
+        ShowFloatingTimer = !Navigation.Uri.Contains("/pomodoro");
+    }
+
+    private bool ShowFloatingTimer {get; set;} = true;
+}
