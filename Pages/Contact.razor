@@ -29,6 +29,14 @@
     <button type="submit">Submit</button>
 </EditForm>
 
+@if (!string.IsNullOrEmpty(responseMessage))
+{
+    <div class="alert alert-info mt-2">
+        @responseMessage
+    </div>
+}
+
+
 @code {
     private SuggestionModel suggestion = new();
     private bool submitted = false;
@@ -41,6 +49,7 @@
         var response = await Http.PostAsync("https://script.google.com/macros/s/AKfycbyahTjQXkCTP-yyv31f0epu35fLav_KLOBMWLKbrjJr8gcFILLHtwWBD9y29yhyu4O-/exec", content);
 
         responseMessage = response.IsSuccessStatusCode ? "Thank you for your suggestion!" : "There was an error.";
+        StateHasChanged();
     }
 
     public class SuggestionModel {

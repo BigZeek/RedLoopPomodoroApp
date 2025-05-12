@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pb6oEbrHHAlJ5LfeKMA3yHOJZvwMxyYEkHg4Pm7Ktoo=",
+  "Hash": "k1/03OmYKRU/DPcZ8ML2i58dpjYIGO0lAm4hvMGf/no=",
   "Source": "PomodoroApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "efx8r12y38",
-      "Integrity": "Opra8Yo43Rhi2DhNyQf8miRPIiTc/lVp1Nq8CaDE6HI=",
+      "Fingerprint": "3l2t36tckq",
+      "Integrity": "qcJCo22SspyhvllOkqM/033V/deINRWwUWi5eRVuRuI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -1081,8 +1081,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "rk5t4sxdht",
-      "Integrity": "hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE=",
+      "Fingerprint": "xseoenisfy",
+      "Integrity": "D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\PomodoroApp.pdb"
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "cvbjiqijtk",
-      "Integrity": "2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c=",
+      "Fingerprint": "km4my7k2nz",
+      "Integrity": "7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\webcil\\PomodoroApp.wasm"
@@ -5057,12 +5057,12 @@
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "Identity": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-cvbjiqijtk.gz",
+      "Identity": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-km4my7k2nz.gz",
       "SourceId": "PomodoroApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/PomodoroApp#[.{fingerprint=cvbjiqijtk}]!.wasm.gz",
+      "RelativePath": "_framework/PomodoroApp#[.{fingerprint=km4my7k2nz}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5071,8 +5071,8 @@
       "RelatedAsset": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1yxmj2yll6",
-      "Integrity": "WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs=",
+      "Fingerprint": "65ckhz66pt",
+      "Integrity": "hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.wasm"
@@ -5939,12 +5939,12 @@
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm"
     },
     {
-      "Identity": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-rk5t4sxdht.gz",
+      "Identity": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-xseoenisfy.gz",
       "SourceId": "PomodoroApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/PomodoroApp#[.{fingerprint=rk5t4sxdht}]!.pdb.gz",
+      "RelativePath": "_framework/PomodoroApp#[.{fingerprint=xseoenisfy}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5953,8 +5953,8 @@
       "RelatedAsset": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "k08n99zhk2",
-      "Integrity": "VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E=",
+      "Fingerprint": "84jxkcdq64",
+      "Integrity": "+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.pdb"
@@ -7136,7 +7136,7 @@
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Private.Xml.wasm"
     },
     {
-      "Identity": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\izl1mpc4h9-efx8r12y38.gz",
+      "Identity": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\izl1mpc4h9-3l2t36tckq.gz",
       "SourceId": "PomodoroApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -7150,8 +7150,8 @@
       "RelatedAsset": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9atz5r3wlr",
-      "Integrity": "/99ge9W6DkiXJSg2cAZfHTqZFiUJsUWt1If8Ywt1kB4=",
+      "Fingerprint": "2fa3oht176",
+      "Integrity": "gpz/ByNopyPfXwp0DkI033i5Iy0lYEgYeV9KVC7aaaM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -11248,7 +11248,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39183"
+          "Value": "39346"
         },
         {
           "Name": "Content-Type",
@@ -11256,7 +11256,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Opra8Yo43Rhi2DhNyQf8miRPIiTc/lVp1Nq8CaDE6HI=\""
+          "Value": "\"qcJCo22SspyhvllOkqM/033V/deINRWwUWi5eRVuRuI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qcJCo22SspyhvllOkqM/033V/deINRWwUWi5eRVuRuI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\izl1mpc4h9-3l2t36tckq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000080827675"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12371"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gpz/ByNopyPfXwp0DkI033i5Iy0lYEgYeV9KVC7aaaM=\""
         },
         {
           "Name": "Last-Modified",
@@ -11265,45 +11304,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Opra8Yo43Rhi2DhNyQf8miRPIiTc/lVp1Nq8CaDE6HI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\izl1mpc4h9-efx8r12y38.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000080840744"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12369"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/99ge9W6DkiXJSg2cAZfHTqZFiUJsUWt1If8Ywt1kB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 16:15:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -11319,19 +11319,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Opra8Yo43Rhi2DhNyQf8miRPIiTc/lVp1Nq8CaDE6HI=\""
+          "Value": "W/\"qcJCo22SspyhvllOkqM/033V/deINRWwUWi5eRVuRuI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Opra8Yo43Rhi2DhNyQf8miRPIiTc/lVp1Nq8CaDE6HI="
+          "Value": "sha256-qcJCo22SspyhvllOkqM/033V/deINRWwUWi5eRVuRuI="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\izl1mpc4h9-efx8r12y38.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\izl1mpc4h9-3l2t36tckq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11340,7 +11340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12369"
+          "Value": "12371"
         },
         {
           "Name": "Content-Type",
@@ -11348,11 +11348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/99ge9W6DkiXJSg2cAZfHTqZFiUJsUWt1If8Ywt1kB4=\""
+          "Value": "\"gpz/ByNopyPfXwp0DkI033i5Iy0lYEgYeV9KVC7aaaM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 16:15:02 GMT"
+          "Value": "Mon, 12 May 2025 18:47:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11370,7 +11370,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/99ge9W6DkiXJSg2cAZfHTqZFiUJsUWt1If8Ywt1kB4="
+          "Value": "sha256-gpz/ByNopyPfXwp0DkI033i5Iy0lYEgYeV9KVC7aaaM="
         }
       ]
     },
@@ -23134,7 +23134,7 @@
       ]
     },
     {
-      "Route": "_framework/PomodoroApp.cvbjiqijtk.wasm",
+      "Route": "_framework/PomodoroApp.km4my7k2nz.wasm",
       "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23152,11 +23152,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c=\""
+          "Value": "\"7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:29 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23166,7 +23166,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cvbjiqijtk"
+          "Value": "km4my7k2nz"
         },
         {
           "Name": "label",
@@ -23174,18 +23174,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c="
+          "Value": "sha256-7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ="
         }
       ]
     },
     {
-      "Route": "_framework/PomodoroApp.cvbjiqijtk.wasm",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-cvbjiqijtk.gz",
+      "Route": "_framework/PomodoroApp.km4my7k2nz.wasm",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-km4my7k2nz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073513196"
+          "Quality": "0.000073670252"
         }
       ],
       "ResponseHeaders": [
@@ -23195,15 +23195,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13602"
+          "Value": "13573"
         },
         {
           "Name": "ETag",
-          "Value": "\"WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs=\""
+          "Value": "\"hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23223,13 +23223,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c=\""
+          "Value": "W/\"7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cvbjiqijtk"
+          "Value": "km4my7k2nz"
         },
         {
           "Name": "label",
@@ -23237,13 +23237,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c="
+          "Value": "sha256-7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ="
         }
       ]
     },
     {
-      "Route": "_framework/PomodoroApp.cvbjiqijtk.wasm.gz",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-cvbjiqijtk.gz",
+      "Route": "_framework/PomodoroApp.km4my7k2nz.wasm.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-km4my7k2nz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23252,7 +23252,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13602"
+          "Value": "13573"
         },
         {
           "Name": "Content-Type",
@@ -23260,11 +23260,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs=\""
+          "Value": "\"hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23282,7 +23282,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cvbjiqijtk"
+          "Value": "km4my7k2nz"
         },
         {
           "Name": "label",
@@ -23290,7 +23290,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs="
+          "Value": "sha256-hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o="
         }
       ]
     },
@@ -23313,11 +23313,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE=\""
+          "Value": "\"D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:29 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23327,13 +23327,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE="
+          "Value": "sha256-D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ="
         }
       ]
     },
     {
       "Route": "_framework/PomodoroApp.pdb",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-rk5t4sxdht.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-xseoenisfy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -23352,11 +23352,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E=\""
+          "Value": "\"+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23376,19 +23376,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE=\""
+          "Value": "W/\"D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE="
+          "Value": "sha256-D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ="
         }
       ]
     },
     {
       "Route": "_framework/PomodoroApp.pdb.gz",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-rk5t4sxdht.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-xseoenisfy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23405,11 +23405,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E=\""
+          "Value": "\"+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23427,168 +23427,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/PomodoroApp.rk5t4sxdht.pdb",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32824"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rk5t4sxdht"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/PomodoroApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/PomodoroApp.rk5t4sxdht.pdb",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-rk5t4sxdht.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000040397512"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24753"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rk5t4sxdht"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/PomodoroApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hXq7pky5qljRI5+0Nm9tqxzr0uG/C0139s35WwZRiQE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/PomodoroApp.rk5t4sxdht.pdb.gz",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-rk5t4sxdht.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24753"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rk5t4sxdht"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/PomodoroApp.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VGU0RaRahkNvW2YTtP78xi0gHNbTzb+dejVL19AEM3E="
+          "Value": "sha256-+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs="
         }
       ]
     },
@@ -23611,11 +23450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c=\""
+          "Value": "\"7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:29 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23625,18 +23464,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c="
+          "Value": "sha256-7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ="
         }
       ]
     },
     {
       "Route": "_framework/PomodoroApp.wasm",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-cvbjiqijtk.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-km4my7k2nz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073513196"
+          "Quality": "0.000073670252"
         }
       ],
       "ResponseHeaders": [
@@ -23646,15 +23485,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13602"
+          "Value": "13573"
         },
         {
           "Name": "ETag",
-          "Value": "\"WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs=\""
+          "Value": "\"hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23674,19 +23513,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c=\""
+          "Value": "W/\"7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2JwKUbTCXlcj3EC8mq7MXhCK6rbQCTku20bON/rJu+c="
+          "Value": "sha256-7F5+hyW/iC8+X42YpeS3X7dAfioakKMCQtbjGvN7DRQ="
         }
       ]
     },
     {
       "Route": "_framework/PomodoroApp.wasm.gz",
-      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-cvbjiqijtk.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\4e5whkcos6-km4my7k2nz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23695,7 +23534,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13602"
+          "Value": "13573"
         },
         {
           "Name": "Content-Type",
@@ -23703,11 +23542,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs=\""
+          "Value": "\"hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 18:47:30 GMT"
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23725,7 +23564,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WfA0kPOfHaU7XmwBlUsgPqfgu7c9qqzZ8A9i0IGjSGs="
+          "Value": "sha256-hogcTGQrRMbW1Dwe3lmJKtmD56CRRlDczlWbYpsCj1o="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/PomodoroApp.xseoenisfy.pdb",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\PomodoroApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xseoenisfy"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/PomodoroApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/PomodoroApp.xseoenisfy.pdb",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-xseoenisfy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000040397512"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24753"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xseoenisfy"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/PomodoroApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/VtcAVPP3uKuAf1Uhbg8RZ7CXm1RlBw0OCdF96dApQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/PomodoroApp.xseoenisfy.pdb.gz",
+      "AssetFile": "C:\\Users\\Zak\\PomodoroApp\\obj\\Debug\\net9.0\\compressed\\9oi7drdp1d-xseoenisfy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 19:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xseoenisfy"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/PomodoroApp.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+IwbbHPdXDnLNrMSw+3RRIqi+J11VxmjxVuwxiKdRMs="
         }
       ]
     },
