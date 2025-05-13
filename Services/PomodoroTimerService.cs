@@ -3,15 +3,13 @@ using PomodoroApp.Services;
 public class PomodoroTimerService {
     private Timer? _timer;
     public event Action? OnTick;
-
     public bool IsRunning {get; set;} = false;
     public bool IsWorkInterval {get; set;} = true;
-
     public int WorkTimeSeconds {get; set;}
     public int BreakTimeSeconds {get; set;}
-
+    public int CompletedCycles {get; set;} = 0;
+    public int? DesiredWorkCycles {get; set;}
     public int TimeLeft {get; set;}
-
     private readonly TimerSettingsService _settings;
 
     public PomodoroTimerService(TimerSettingsService settings) {
@@ -24,6 +22,7 @@ public class PomodoroTimerService {
     private void setTimesFromSettings() {
         WorkTimeSeconds = _settings.WorkTimeMinutes * 60;
         BreakTimeSeconds = _settings.BreakTimeMinutes * 60;
+        DesiredWorkCycles = _settings.WorkCycles;
         TimeLeft = WorkTimeSeconds;
     }
 
@@ -45,6 +44,11 @@ public class PomodoroTimerService {
         } 
         else {
             IsWorkInterval = !IsWorkInterval;
+            CompletedCycles++;
+            if (DesiredWorkCycles.HasValue && CompletedCycles >= DesiredWorkCycles.Value) {
+                Pause(); //Change function to some sort of completion sound/animation/message
+                return;
+            }
             TimeLeft = IsWorkInterval ? WorkTimeSeconds : BreakTimeSeconds;
             OnTick?.Invoke();
         }

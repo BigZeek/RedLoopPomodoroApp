@@ -9,6 +9,7 @@
     private bool isWorkInterval = true;
     //Displays work or break times accordingly
     private string DisplayTime => $"{PomodoroService.TimeLeft / 60:D2}:{PomodoroService.TimeLeft % 60:D2}";
+    private string DisplayWorkCyclesCompleted => $"{PomodoroService.CompletedCycles}";
 
     private void ResetWorkTime(){
         workTimeLeft = TimerService.WorkTimeMinutes * 60;
@@ -46,6 +47,7 @@
 <div class="container text-center mt-5">
     <h1 class="mb-3">Pomodoro Timer</h1>
     <h2 class="display-4">@DisplayTime</h2>
+    <h3>Work cycles completed: @DisplayWorkCyclesCompleted</h3>
     <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
         @(PomodoroService.IsRunning ? "Pause" : "Start")
     </button>

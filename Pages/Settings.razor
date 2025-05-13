@@ -15,8 +15,12 @@
     <label>Break Time (in minutes):</label>
     <input @bind="breakTimeInput" placeholder="Break (min)" type="number" />
 </div>
+<div>
+    <label>Number of Work Cycles:</label>
+    <input @bind="cyclesInput" placeholder="Cycles" type="number" />
+</div>
 
-<button @onclick="SaveTimers">Save Settings</button>
+<button @onclick="SaveSettings">Save Settings</button>
 <p>@message</p>
 
 @code {
@@ -24,15 +28,20 @@
     private int breakTimeInput;
     private int savedWorkTime;
     private int savedBreakTime;
+    private int? cyclesInput;
+    private int? savedCycles;
     private string message = string.Empty;
 
     protected override void OnInitialized(){
         workTimeInput = TimerService.WorkTimeMinutes;
         breakTimeInput = TimerService.BreakTimeMinutes;
+        cyclesInput = TimerService.WorkCycles;
     }
-    private void SaveTimers(){
+    private void SaveSettings(){
         savedWorkTime = workTimeInput;
         savedBreakTime = breakTimeInput;
+        savedCycles = cyclesInput;
+        TimerService.UpdateCycles(savedCycles);
         TimerService.UpdateTimes(savedWorkTime, savedBreakTime);
         message = "Settings saved!";
     }
