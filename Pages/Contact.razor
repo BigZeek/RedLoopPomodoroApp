@@ -1,57 +1,65 @@
 ﻿@page "/contact"
+@using System.ComponentModel.DataAnnotations
+@using System.Text
+@using System.Text.Json
 @inject HttpClient Http
 
 <PageTitle>Contact</PageTitle>
 
-<h1>Weather</h1>
+<h1>Suggestion Box</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>Drop any suggestions for improvements here!</p>
 
-@if (forecasts == null)
+<EditForm Model="@suggestion" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Name:</label>
+        <InputText @bind-Value="suggestion.Name" class="form-control" style="width: 75%" />
+    </div>
+    <div>
+        <label>Your Email:</label>
+        <InputText @bind-Value="suggestion.Email" class="form-control" style="width: 75%" />
+    </div>
+    <div>
+        <label>Suggest an Improvement!</label>
+        <InputTextArea @bind-Value="suggestion.Message" class="form-control" style="width: 75%"  rows="4"/>
+    </div>
+    <button type="submit">Submit</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(responseMessage))
 {
-    <p><em>Loading...</em></p>
+    <div class="alert alert-info mt-2">
+        @responseMessage
+    </div>
 }
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th aria-label="Temperature in Celsius">Temp. (C)</th>
-                <th aria-label="Temperature in Farenheit">Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private SuggestionModel suggestion = new();
+    private bool submitted = false;
+    private string responseMessage = "";
 
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    private async Task HandleSubmit() {
+        var json = JsonSerializer.Serialize(suggestion);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        var response = await Http.PostAsync("https://script.google.com/macros/s/AKfycbyahTjQXkCTP-yyv31f0epu35fLav_KLOBMWLKbrjJr8gcFILLHtwWBD9y29yhyu4O-/exec", content);
+
+        responseMessage = response.IsSuccessStatusCode ? "Thank you for your suggestion!" : "There was an error.";
+        StateHasChanged();
     }
 
-    public class WeatherForecast
-    {
-        public DateOnly Date { get; set; }
+    public class SuggestionModel {
+        [Required]
+        public string Name {get; set;}
+        [Required]
+        public string Email {get; set;}
 
-        public int TemperatureC { get; set; }
-
-        public string? Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        [Required]
+        [StringLength(200)]
+        public string Message{get; set;}
     }
 }

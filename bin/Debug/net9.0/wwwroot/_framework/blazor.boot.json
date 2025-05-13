@@ -1,8 +1,9 @@
 {
   "mainAssemblyName": "PomodoroApp",
   "resources": {
-    "hash": "sha256-+3XVbb1oThi+p17zWhPiIAoPGz9UmKGG7AKnZ5KA1QQ=",
+    "hash": "sha256-2N07JWzUqS/UbKYg29i/hSrwHyzAC7mz3GEMZFQRZX0=",
     "fingerprinting": {
+      "BlazorBootstrap.8ia4ukhb4c.wasm": "BlazorBootstrap.wasm",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.aq1ir8e8pl.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -201,8 +202,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "PomodoroApp.x9qksexqh2.wasm": "PomodoroApp.wasm",
-      "PomodoroApp.hxsox67guq.pdb": "PomodoroApp.pdb"
+      "PomodoroApp.01yhn5z7i3.wasm": "PomodoroApp.wasm",
+      "PomodoroApp.nzmw26y5x3.pdb": "PomodoroApp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -223,6 +224,7 @@
       "System.Private.CoreLib.6pgvn7a8kc.wasm": "sha256-SvlKQyOSwushlzp2th0dFRtuG039e446mqxz7rmv5XM="
     },
     "assembly": {
+      "BlazorBootstrap.8ia4ukhb4c.wasm": "sha256-MIwpz+S9i8sZvkJIsjB5JXII2Y7wGr+D3glSOxjbeyw=",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "sha256-rvfJ4vWD9REicee49XUtbmMWVdG0gSGCfb9oZFv9gkY=",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "sha256-RDzFNwWFeDHfByrpBjtoeDosPx0W+62WnUqQnxj4pzs=",
       "Microsoft.AspNetCore.Components.Forms.aq1ir8e8pl.wasm": "sha256-QtQH0F71sC0xN/8FWFAnruXDnbOacIsCWaGtPYIgPHM=",
@@ -412,10 +414,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "PomodoroApp.x9qksexqh2.wasm": "sha256-+xnyoT76zjDukA0tGZXnC0FKSSV2mcOv/j0WYTyITmY="
+      "PomodoroApp.01yhn5z7i3.wasm": "sha256-hGGAL0CQm616sWnZi+YT9I2o2YLm99SJD1qYXw7729E="
     },
     "pdb": {
-      "PomodoroApp.hxsox67guq.pdb": "sha256-i07tPZVtCoeMG6ks8TICHAbfGQdrXffHY1malelOzZQ="
+      "PomodoroApp.nzmw26y5x3.pdb": "sha256-Y7YujJM/09o8a6j7FvY9LYDNU42Xuw3SKjUHLIqtBsg="
     }
   },
   "cacheBootResources": true,
