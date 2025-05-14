@@ -1,4 +1,5 @@
 @using PomodoroApp.Services
+@using BlazorBootstrap
 @inject TimerSettingsService TimerService
 @inject PomodoroTimerService PomodoroService
 
@@ -22,6 +23,7 @@
         workTimeLeft = TimerService.WorkTimeMinutes * 60;
         breakTimeLeft = TimerService.BreakTimeMinutes * 60;
     }
+
     private async Task StartPauseTimer() 
     {
         if(PomodoroService.IsRunning) {
@@ -51,4 +53,6 @@
     <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
         @(PomodoroService.IsRunning ? "Pause" : "Start")
     </button>
+    <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" TooltipTitle="Reset work session" TooltipPlacement="TooltipPlacement.Top">
+        Reset</Button>
 </div>
