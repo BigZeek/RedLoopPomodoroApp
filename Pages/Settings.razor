@@ -1,5 +1,7 @@
 @page "/settings"
 @using PomodoroApp.Services;
+@using BlazorBootstrap
+@using Microsoft.AspNetCore.Components
 @inject TimerSettingsService TimerService
 
 <PageTitle>Settings</PageTitle>
@@ -16,11 +18,11 @@
     <input @bind="breakTimeInput" placeholder="Break (min)" type="number" />
 </div>
 <div>
-    <label>Number of Work Cycles:</label>
+    <label>Work Cycles (optional):</label>
     <input @bind="cyclesInput" placeholder="Cycles" type="number" />
 </div>
 
-<button @onclick="SaveSettings">Save Settings</button>
+<Button Color="ButtonColor.Success" @onclick="SaveSettings">Save Settings</Button>
 <p>@message</p>
 
 @code {
@@ -31,6 +33,7 @@
     private int? cyclesInput;
     private int? savedCycles;
     private string message = string.Empty;
+    private string alertMessage = string.Empty;
 
     protected override void OnInitialized(){
         workTimeInput = TimerService.WorkTimeMinutes;

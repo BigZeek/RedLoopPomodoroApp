@@ -2,6 +2,7 @@
 @using BlazorBootstrap
 @inject TimerSettingsService TimerService
 @inject PomodoroTimerService PomodoroService
+@implements IDisposable
 
 @code {
     private int workTimeLeft;
@@ -34,25 +35,31 @@
     }
 
     protected override void OnInitialized(){
-        ResetWorkTime();
-        ResetBreakTime();
+        //Not sure why I had these here?
+        //ResetWorkTime();
+        //ResetBreakTime();
         PomodoroService.OnTick += HandleTick;
+        PomodoroService.OnMessageChanged += StateHasChanged;
+    }
+
+    public void Dispose(){
+        PomodoroService.OnMessageChanged -= StateHasChanged;
     }
 
     private void HandleTick() {
         InvokeAsync(StateHasChanged);
     }
-
 }
 
 
 <div class="container text-center mt-5">
+    <span>@PomodoroService.CurrentMessage</span>
     <h1 class="mb-3">Pomodoro Timer</h1>
     <h2 class="display-4">@DisplayTime</h2>
     <h3>Work cycles completed: @DisplayWorkCyclesCompleted</h3>
     <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
         @(PomodoroService.IsRunning ? "Pause" : "Start")
     </button>
-    <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" TooltipTitle="Reset work session" TooltipPlacement="TooltipPlacement.Top">
+    <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" TooltipTitle="Reset work session" TooltipPlacement="TooltipPlacement.Bottom">
         Reset</Button>
 </div>
