@@ -5,6 +5,7 @@ public class PomodoroTimerService
     private Timer? _timer;
     public event Action? OnTick;
     public event Action? OnMessageChanged;
+    public event Action? OnIntervalChanged;
     public bool IsRunning { get; set; } = false;
     public bool IsWorkInterval { get; set; } = true;
     public int WorkTimeSeconds { get; set; }
@@ -112,6 +113,7 @@ public class PomodoroTimerService
             }
 
             IsWorkInterval = !IsWorkInterval;
+            OnIntervalChanged?.Invoke();
             TimeLeft = IsWorkInterval ? WorkTimeSeconds : BreakTimeSeconds;
             if (IsWorkInterval)
             {
@@ -121,6 +123,7 @@ public class PomodoroTimerService
             {
                 DisplayBreakMessage();
             }
+
             OnTick?.Invoke();
         }
     }

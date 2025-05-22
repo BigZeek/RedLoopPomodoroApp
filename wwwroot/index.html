@@ -43,6 +43,14 @@
     <!-- Add sortable.js reference if SortableList component is used in your application. -->
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
     <script src="_content/Blazor.Bootstrap/blazor.bootstrap.js"></script>
+    <script src="/lib/bootstrap/dist/js/soundControl.js"></script>
+
+    <script>
+        window.playEffect = function (src) {
+            const audio = new Audio(srt);
+            audio.play();
+        }
+    </script>
 </body>
 
 </html>

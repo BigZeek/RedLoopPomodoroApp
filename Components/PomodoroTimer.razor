@@ -35,9 +35,6 @@
     }
 
     protected override void OnInitialized(){
-        //Not sure why I had these here?
-        //ResetWorkTime();
-        //ResetBreakTime();
         PomodoroService.OnTick += HandleTick;
         PomodoroService.OnMessageChanged += StateHasChanged;
     }

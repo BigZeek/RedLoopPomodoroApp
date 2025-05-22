@@ -1,0 +1,73 @@
+@using PomodoroApp.Services
+@inject PomodoroTimerService PomodoroService
+@inject IJSRuntime JS
+
+@code{
+    private string[] ambientSounds = new[]
+    {
+        "sounds/soundeffects/zapsplat_bells_bell_large_ring_designed_105683.mp3",
+        "sounds/ambient/zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3"
+    };
+
+    private string[] musicTracks = new[]
+    {
+        "sounds/music/music_biiansu_no_sleep_for_busy_minds_016.mp3",
+        "sounds/music/music_kulluh_Star_Chasers_005.mp3"
+    };
+
+    private string[] soundEffects = new[]
+    {
+        "sounds/soundeffects/zapsplat_bells_bell_large_ring_designed_105683.mp3"
+    };
+
+    private string? currentAmbient;
+    private string? currentMusic;
+    private string? currentEffect;
+
+    protected override void OnInitialized()
+    {
+        PomodoroService.OnIntervalChanged += HandleIntervalChangeAsync;
+        var rand = new Random();
+        currentMusic = musicTracks[rand.Next(musicTracks.Length)];
+        //currentAmbient = ambientSounds[rand.Next(ambientSounds.Length)];
+        currentEffect = soundEffects[0];
+    }
+    public void Dispose() {
+        PomodoroService.OnIntervalChanged -= HandleIntervalChangeAsync;
+    }
+    private async void HandleIntervalChangeAsync() 
+    { 
+        var rand = new Random();
+        try{
+            await JS.InvokeVoidAsync("soundControl.playEffect");
+            await Task.Delay(500);
+
+            if (PomodoroService.IsWorkInterval)
+            {
+                currentMusic = musicTracks[rand.Next(musicTracks.Length)];
+                
+                await JS.InvokeVoidAsync("soundControl.pauseAmbient");
+                await JS.InvokeVoidAsync("soundControl.playMusic");
+            }  
+            else 
+            {
+                currentAmbient = ambientSounds[0];
+                //currentAmbient = ambientSounds[rand.Next(ambientSounds.Length)];
+                await JS.InvokeVoidAsync("soundControl.pauseMusic");
+                await JS.InvokeVoidAsync("soundControl.playAmbient");
+            }
+        }
+        catch (Exception ex) {
+            Console.WriteLine($"Error switching audio: {ex.Message}");
+        }
+    }
+
+    private async Task PlayAmbientSound() => await JS.InvokeVoidAsync("soundControl.PlayAmbientSound");
+    private async Task StopAmbientSound() => await JS.InvokeVoidAsync("soundControl.pauseAmbient");
+    private async Task PlayEffectSound() => await JS.InvokeVoidAsync("soundControl.playEffect");
+}
+
+
+<audio id="ambientAudio" src="@currentAmbient" autoplay muted loop preload="auto"></audio>
+<audio id="musicAudio" src="@currentMusic" autoplay muted loop preload="auto"></audio>
+<audio id="effectAudio" src="@currentEffect" preload="auto"></audio>
