@@ -26,7 +26,17 @@
         <label>Suggest an Improvement!</label>
         <InputTextArea @bind-Value="suggestion.Message" class="form-control" style="width: 75%"  rows="4"/>
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn btn-primary mt-2" disabled="@isSubmitting">
+        @if (isSubmitting)
+        {
+            <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+            <text>Sending...</text>
+        }
+        else
+        {
+            <text>Submit</text>
+        }
+    </button>
 </EditForm>
 
 @if (!string.IsNullOrEmpty(responseMessage))
@@ -41,14 +51,32 @@
     private SuggestionModel suggestion = new();
     private bool submitted = false;
     private string responseMessage = "";
+    private bool isSubmitting = false;
 
     private async Task HandleSubmit() {
-        var json = JsonSerializer.Serialize(suggestion);
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
+        isSubmitting = true;
+        try{
+            var form = new ContactFormDto
+            {
+                name = suggestion.Name,
+                email = suggestion.Email,
+                message = suggestion.Message
+            };
+            var json = JsonSerializer.Serialize(form);
 
-        var response = await Http.PostAsync("https://script.google.com/macros/s/AKfycbyahTjQXkCTP-yyv31f0epu35fLav_KLOBMWLKbrjJr8gcFILLHtwWBD9y29yhyu4O-/exec", content);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await Http.PostAsync("https://formspree.io/f/mgvywwja", content);
 
-        responseMessage = response.IsSuccessStatusCode ? "Thank you for your suggestion!" : "There was an error.";
+            responseMessage = response.IsSuccessStatusCode ? "Thank you for your suggestion!" : "There was an error.";
+        }
+        catch (Exception e)
+        {
+            responseMessage = $"Exception occurred: {e.Message}";
+        }
+        finally 
+        {
+            isSubmitting = false;
+        }
         StateHasChanged();
     }
 
@@ -62,4 +90,11 @@
         [StringLength(200)]
         public string Message {get; set;}
     }
+
+    public class ContactFormDto
+{
+    public string name { get; set; }
+    public string email { get; set; }
+    public string message { get; set; }
+}
 }
