@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+using PomodoroApp.Components;
 using PomodoroApp.Services;
 
 public class PomodoroTimerService
@@ -6,6 +8,7 @@ public class PomodoroTimerService
     public event Action? OnTick;
     public event Action? OnMessageChanged;
     public event Action? OnIntervalChanged;
+    public event Func<Task>? OnReset;
     public bool IsRunning { get; set; } = false;
     public bool IsWorkInterval { get; set; } = true;
     public int WorkTimeSeconds { get; set; }
@@ -69,14 +72,16 @@ public class PomodoroTimerService
         TimeLeft = WorkTimeSeconds;
     }
 
-    public void Reset()
+    public async Task Reset()
     {
         SetOptionsFromSettings();
         IsWorkInterval = true;
         IsRunning = false;
         CompletedCycles = 0;
+        DisplayMotivationalMessage();
         _timer?.Dispose();
         OnTick?.Invoke();
+        OnReset?.Invoke();
     }
 
     public void Start()

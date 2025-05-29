@@ -26,16 +26,17 @@
 
     protected override void OnInitialized()
     {
-        PomodoroService.OnIntervalChanged += HandleIntervalChangeAsync;
+        PomodoroService.OnIntervalChanged += async () => await HandleIntervalChangeAsync();
+        PomodoroService.OnReset += async () => await HandleIntervalChangeAsync();
         var rand = new Random();
         currentMusic = musicTracks[rand.Next(musicTracks.Length)];
         //currentAmbient = ambientSounds[rand.Next(ambientSounds.Length)];
         currentEffect = soundEffects[0];
     }
     public void Dispose() {
-        PomodoroService.OnIntervalChanged -= HandleIntervalChangeAsync;
+        PomodoroService.OnIntervalChanged -= async () => await HandleIntervalChangeAsync();
     }
-    private async void HandleIntervalChangeAsync() 
+    private async Task HandleIntervalChangeAsync() 
     { 
         var rand = new Random();
         try{
