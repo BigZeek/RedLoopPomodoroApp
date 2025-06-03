@@ -125,3 +125,21 @@ code {
     font-size: 16px;
     z-index: 1000;
 }
+
+.background {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/backgrounds/city-5848267_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1000;
+    pointer-events: none;
+}
+
+.pomodoro-container {
+    position: relative;
+    z-index: 10;
+}

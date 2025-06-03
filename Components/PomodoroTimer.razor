@@ -49,7 +49,7 @@
 }
 
 
-<div class="container text-center mt-5">
+<div class="pomodoro-container container text-center mt-5">
     <span>@PomodoroService.CurrentMessage</span>
     <h1 class="mb-3">Pomodoro Timer</h1>
     <h2 class="display-4">@DisplayTime</h2>
@@ -57,6 +57,9 @@
     <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
         @(PomodoroService.IsRunning ? "Pause" : "Start")
     </button>
-    <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" TooltipTitle="Reset work session" TooltipPlacement="TooltipPlacement.Bottom">
-        Reset</Button>
+    <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" 
+        TooltipTitle="Reset work session" 
+        TooltipPlacement="TooltipPlacement.Bottom">
+        Reset
+    </Button>
 </div>
