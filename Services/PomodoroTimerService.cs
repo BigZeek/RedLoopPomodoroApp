@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-using PomodoroApp.Components;
 using PomodoroApp.Services;
 
 public class PomodoroTimerService

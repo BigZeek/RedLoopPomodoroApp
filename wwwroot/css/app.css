@@ -139,7 +139,24 @@ code {
     pointer-events: none;
 }
 
-.pomodoro-container {
+.timer-overlay-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    min-height: 100vh;
+    text-align: right;
+    padding: 20rem;
     position: relative;
+    max-width: fit-content;
     z-index: 10;
+}
+
+.timer-overlay-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
 }

@@ -48,18 +48,19 @@
     }
 }
 
-
-<div class="pomodoro-container container text-center mt-5">
-    <span>@PomodoroService.CurrentMessage</span>
-    <h1 class="mb-3">Pomodoro Timer</h1>
-    <h2 class="display-4">@DisplayTime</h2>
-    <h3>Work cycles completed: @DisplayWorkCyclesCompleted</h3>
-    <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
-        @(PomodoroService.IsRunning ? "Pause" : "Start")
-    </button>
-    <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" 
-        TooltipTitle="Reset work session" 
-        TooltipPlacement="TooltipPlacement.Bottom">
-        Reset
-    </Button>
+<div class="timer-overlay-container">
+    <div class="timer-overlay-content container text-white p-4 rounded">
+        <span>@PomodoroService.CurrentMessage</span>
+        <h1 class="mb-3">Pomodoro Timer</h1>
+        <h2 class="display-4">@DisplayTime</h2>
+        <h3>Work cycles completed: @DisplayWorkCyclesCompleted</h3>
+        <button class="btn btn-primary mt-3" @onclick="StartPauseTimer">
+            @(PomodoroService.IsRunning ? "Pause" : "Start")
+        </button>
+        <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" 
+            TooltipTitle="Reset work session" 
+            TooltipPlacement="TooltipPlacement.Bottom">
+            Reset
+        </Button>
+    </div>
 </div>
