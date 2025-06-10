@@ -1,5 +1,6 @@
 # PomodoroApp
 Work in Progress - Pomodoro web app
+[![wakatime](https://wakatime.com/badge/user/af3e8694-2222-4de2-a458-248b84236d83/project/31f418f2-4a5c-4ab2-a5e6-7e094fb620bf.svg)](https://wakatime.com/badge/user/af3e8694-2222-4de2-a458-248b84236d83/project/31f418f2-4a5c-4ab2-a5e6-7e094fb620bf)
 ---
 I am currently working on building RedLoop, a customizable and immersive pomodoro timer. Built with C# and .NET Blazor, styled with Blazor Bootstrap, the goal is to create a deep work environment and improve user performance in any task!
 
