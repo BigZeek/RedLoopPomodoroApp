@@ -1,6 +1,7 @@
 ﻿@inherits LayoutComponentBase
 @using BlazorBootstrap
 @inject NavigationManager Navigation
+@inject SoundService SoundService
 
 
 <BlazorBootstrapLayout StickyHeader="true">
@@ -23,9 +24,8 @@
             <PomodoroApp.Components.FloatingPomodoroTimer />
         }
     </ContentSection>
-
-
 </BlazorBootstrapLayout>
+<PomodoroApp.Components.SoundPlayer />
 
 @code {
     private IEnumerable<NavItem> navItems = default!;

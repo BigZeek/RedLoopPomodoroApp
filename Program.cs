@@ -11,4 +11,5 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddScoped<TimerSettingsService>();
 builder.Services.AddScoped<PomodoroTimerService>();
 builder.Services.AddBlazorBootstrap();
+builder.Services.AddScoped<SoundService>();
 await builder.Build().RunAsync();

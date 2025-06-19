@@ -17,6 +17,7 @@ namespace PomodoroApp.Services
         public void UpdateCycles(int? cycles)
         {
             WorkCycles = cycles;
+            OnSettingsChanged?.Invoke();
         }
     }
 }

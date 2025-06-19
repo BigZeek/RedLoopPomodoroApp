@@ -79,7 +79,8 @@ public class PomodoroTimerService
         DisplayMotivationalMessage();
         _timer?.Dispose();
         OnTick?.Invoke();
-        OnReset?.Invoke();
+        if (OnReset != null)
+            await OnReset?.Invoke();
     }
 
     public void Start()

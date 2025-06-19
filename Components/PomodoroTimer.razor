@@ -2,13 +2,12 @@
 @using BlazorBootstrap
 @inject TimerSettingsService TimerService
 @inject PomodoroTimerService PomodoroService
+@inject SoundService SoundService
 @implements IDisposable
 
 @code {
     private int workTimeLeft;
     private int breakTimeLeft;
-    private bool isRunning = false;
-    private bool isWorkInterval = true;
     //Displays work or break times accordingly
     private string DisplayTime => $"{PomodoroService.TimeLeft / 60:D2}:{PomodoroService.TimeLeft % 60:D2}";
     private string DisplayWorkCyclesCompleted => $"{PomodoroService.CompletedCycles}";
@@ -29,8 +28,11 @@
     {
         if(PomodoroService.IsRunning) {
             PomodoroService.Pause();
-        } else  
+            await SoundService.PauseMusicAsync();
+        } else  {
             PomodoroService.Start();
+            await SoundService.PlayMusicAsync();
+        }
         
     }
 
@@ -58,7 +60,7 @@
             @(PomodoroService.IsRunning ? "Pause" : "Start")
         </button>
         <Button class="btn btn-primary mt-3" @onclick="PomodoroService.Reset" 
-            TooltipTitle="Reset work session" 
+            TooltipTitle="Reset session" 
             TooltipPlacement="TooltipPlacement.Bottom">
             Reset
         </Button>
