@@ -1,8 +1,19 @@
 @page "/pomodoro"
 @using PomodoroApp.Components
 @inject PomodoroTimerService PomodoroService
+@inject BackgroundSettingsService BackgroundService
 
 <PageTitle>Pomodoro Timer</PageTitle>
-<div class="background"></div>
+<div class="@GetContainerClass()"></div>
 
 <PomodoroTimer/>
+
+@code{
+    protected override async Task OnInitializedAsync()
+    {
+        await BackgroundService.InitializeAsync();
+    }
+
+    private string GetContainerClass()
+        => BackgroundService.backgroundIsShown ? "timer-overlay-container with-background" : "timer-overlay-container no-background";
+}

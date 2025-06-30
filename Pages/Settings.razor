@@ -3,6 +3,7 @@
 @using BlazorBootstrap
 @using Microsoft.AspNetCore.Components
 @inject TimerSettingsService TimerService
+@inject BackgroundSettingsService BackgroundService
 
 <PageTitle>Settings</PageTitle>
 
@@ -25,6 +26,11 @@
 <Button Color="ButtonColor.Success" @onclick="SaveSettings">Save Settings</Button>
 <p>@message</p>
 
+<div>
+    <Switch @bind-Value="backgroundIsShown" Label="Background On/Off" />
+    <button class="btn btn-primary" @onclick="SaveBackgroundSetting">Save</button>
+</div>
+
 @code {
     private int workTimeInput;
     private int breakTimeInput;
@@ -33,7 +39,7 @@
     private int? cyclesInput;
     private int? savedCycles;
     private string message = string.Empty;
-
+    private bool backgroundIsShown;
     protected override void OnInitialized(){
         workTimeInput = TimerService.WorkTimeMinutes;
         breakTimeInput = TimerService.BreakTimeMinutes;
@@ -48,4 +54,15 @@
         message = "Settings saved!";
     }
     
+    protected override async Task OnInitializedAsync()
+    {
+        await BackgroundService.InitializeAsync();
+        backgroundIsShown = BackgroundService.backgroundIsShown;
+    }
+    
+    private async Task SaveBackgroundSetting()
+    {
+        await BackgroundService.SetBackgroundOnOff(backgroundIsShown);
+    }
 }
+
