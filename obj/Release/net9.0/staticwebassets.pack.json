@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\bin\\Release\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\obj\\Release\\net9.0\\scopedcss\\bundle\\PomodoroApp.styles.css",
+      "PackagePath": "staticwebassets\\PomodoroApp.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\backgrounds\\city-5848267_1920.jpg",
+      "PackagePath": "staticwebassets\\backgrounds\\city-5848267_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\backgrounds\\pexels-minan1398-813269.jpg",
+      "PackagePath": "staticwebassets\\backgrounds\\pexels-minan1398-813269.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\css\\icons\\github-mark-white.png",
+      "PackagePath": "staticwebassets\\css\\icons\\github-mark-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\sounds\\ambient\\zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3",
+      "PackagePath": "staticwebassets\\sounds\\ambient\\zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\sounds\\music\\music_biiansu_no_sleep_for_busy_minds_016.mp3",
+      "PackagePath": "staticwebassets\\sounds\\music\\music_biiansu_no_sleep_for_busy_minds_016.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\sounds\\music\\music_kulluh_Star_Chasers_005.mp3",
+      "PackagePath": "staticwebassets\\sounds\\music\\music_kulluh_Star_Chasers_005.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\sounds\\soundeffects\\zapsplat_bells_bell_large_ring_designed_105683.mp3",
+      "PackagePath": "staticwebassets\\sounds\\soundeffects\\zapsplat_bells_bell_large_ring_designed_105683.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Zak\\PomodoroApp\\wwwroot\\sounds\\soundeffects\\zapsplat_bells_bell_med_large_ring_designed_105573.mp3",
+      "PackagePath": "staticwebassets\\sounds\\soundeffects\\zapsplat_bells_bell_med_large_ring_designed_105573.mp3"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.PomodoroApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.PomodoroApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.PomodoroApp.props",
+      "PackagePath": "build\\PomodoroApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.PomodoroApp.props",
+      "PackagePath": "buildMultiTargeting\\PomodoroApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.PomodoroApp.props",
+      "PackagePath": "buildTransitive\\PomodoroApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

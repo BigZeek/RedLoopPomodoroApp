@@ -1,0 +1,310 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/backgrounds/city-5848267_1920.cg4ypo0k9r.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backgrounds\city-5848267_1920.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cg4ypo0k9r"},{"Name":"integrity","Value":"sha256-9Jv1nKlvVTW789ptubokuKNMNBQv941cPAf0s4iEH6w="},{"Name":"label","Value":"RedLoopPomodoroApp/backgrounds/city-5848267_1920.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242864"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229Jv1nKlvVTW789ptubokuKNMNBQv941cPAf0s4iEH6w=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/backgrounds/city-5848267_1920.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backgrounds\city-5848267_1920.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9Jv1nKlvVTW789ptubokuKNMNBQv941cPAf0s4iEH6w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"242864"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229Jv1nKlvVTW789ptubokuKNMNBQv941cPAf0s4iEH6w=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/backgrounds/pexels-minan1398-813269.6snsov5phk.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backgrounds\pexels-minan1398-813269.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6snsov5phk"},{"Name":"integrity","Value":"sha256-Zuv1ALekbwcS4JzO8\u002BYh7NMBCZjGM/4dJUTF1aH\u002B14o="},{"Name":"label","Value":"RedLoopPomodoroApp/backgrounds/pexels-minan1398-813269.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"496802"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Zuv1ALekbwcS4JzO8\u002BYh7NMBCZjGM/4dJUTF1aH\u002B14o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/backgrounds/pexels-minan1398-813269.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backgrounds\pexels-minan1398-813269.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Zuv1ALekbwcS4JzO8\u002BYh7NMBCZjGM/4dJUTF1aH\u002B14o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"496802"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Zuv1ALekbwcS4JzO8\u002BYh7NMBCZjGM/4dJUTF1aH\u002B14o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/css/app.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aQhetKr2vnvMZ1qxomADCg9s0ayIYn8EaYpf\u002BNce1Gs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5195"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aQhetKr2vnvMZ1qxomADCg9s0ayIYn8EaYpf\u002BNce1Gs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/css/app.vifg1535re.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vifg1535re"},{"Name":"integrity","Value":"sha256-aQhetKr2vnvMZ1qxomADCg9s0ayIYn8EaYpf\u002BNce1Gs="},{"Name":"label","Value":"RedLoopPomodoroApp/css/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5195"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aQhetKr2vnvMZ1qxomADCg9s0ayIYn8EaYpf\u002BNce1Gs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/css/icons/github-mark-white.0gidxkspii.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\icons\github-mark-white.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0gidxkspii"},{"Name":"integrity","Value":"sha256-YNA/DxoJqvzC3y4QtP/STqtEeHtFH4/bNnw7r1ic\u002BVo="},{"Name":"label","Value":"RedLoopPomodoroApp/css/icons/github-mark-white.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4837"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YNA/DxoJqvzC3y4QtP/STqtEeHtFH4/bNnw7r1ic\u002BVo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/css/icons/github-mark-white.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\icons\github-mark-white.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YNA/DxoJqvzC3y4QtP/STqtEeHtFH4/bNnw7r1ic\u002BVo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4837"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YNA/DxoJqvzC3y4QtP/STqtEeHtFH4/bNnw7r1ic\u002BVo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/favicon.ifv42okdf2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ifv42okdf2"},{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="},{"Name":"label","Value":"RedLoopPomodoroApp/favicon.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/favicon.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/icon-192.f9uvjujlxy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icon-192.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f9uvjujlxy"},{"Name":"integrity","Value":"sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4="},{"Name":"label","Value":"RedLoopPomodoroApp/icon-192.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2626"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/icon-192.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icon-192.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2626"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wlOg88ndV6PPzFvZ97xqRDAnMMOuV\u002BnFtsV4vUNGLso="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3183"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022wlOg88ndV6PPzFvZ97xqRDAnMMOuV\u002BnFtsV4vUNGLso=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/index.qhskrl743u.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qhskrl743u"},{"Name":"integrity","Value":"sha256-wlOg88ndV6PPzFvZ97xqRDAnMMOuV\u002BnFtsV4vUNGLso="},{"Name":"label","Value":"RedLoopPomodoroApp/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3183"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022wlOg88ndV6PPzFvZ97xqRDAnMMOuV\u002BnFtsV4vUNGLso=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.0nosoui9c0.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0nosoui9c0"},{"Name":"integrity","Value":"sha256-vBsmXh1cC1EZReP21GKclPOHZBC9Crm8nEMX/DOof78="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"149895"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vBsmXh1cC1EZReP21GKclPOHZBC9Crm8nEMX/DOof78=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.2b49ygrf4j.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2b49ygrf4j"},{"Name":"integrity","Value":"sha256-DpDESXU0nMY5C5h2nycBb\u002BLa1LEHIj3Pm6bEKYDziO0="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"214133"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DpDESXU0nMY5C5h2nycBb\u002BLa1LEHIj3Pm6bEKYDziO0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DpDESXU0nMY5C5h2nycBb\u002BLa1LEHIj3Pm6bEKYDziO0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"214133"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DpDESXU0nMY5C5h2nycBb\u002BLa1LEHIj3Pm6bEKYDziO0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.js.fjv1unypbm.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fjv1unypbm"},{"Name":"integrity","Value":"sha256-608OGG0/e89blqHGp7LM8qAe2x2fhnp9JPwHZRXB3Fw="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"444579"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022608OGG0/e89blqHGp7LM8qAe2x2fhnp9JPwHZRXB3Fw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-608OGG0/e89blqHGp7LM8qAe2x2fhnp9JPwHZRXB3Fw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"444579"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022608OGG0/e89blqHGp7LM8qAe2x2fhnp9JPwHZRXB3Fw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.min.hd3gran6i8.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hd3gran6i8"},{"Name":"integrity","Value":"sha256-6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80727"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"80727"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HSh21dic4s7ZoqC4Q2yKQ1jYpNtmBNUZC3LuOXBcX60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"332090"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022HSh21dic4s7ZoqC4Q2yKQ1jYpNtmBNUZC3LuOXBcX60=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.min.js.zo6wu4c7fs.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zo6wu4c7fs"},{"Name":"integrity","Value":"sha256-HSh21dic4s7ZoqC4Q2yKQ1jYpNtmBNUZC3LuOXBcX60="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"332090"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022HSh21dic4s7ZoqC4Q2yKQ1jYpNtmBNUZC3LuOXBcX60=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pUbLCtBZm75NXilVN0hdNqglbgifFmwdeu12\u002BKSRP4c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"140276"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pUbLCtBZm75NXilVN0hdNqglbgifFmwdeu12\u002BKSRP4c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.js.9s66nvtbtt.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9s66nvtbtt"},{"Name":"integrity","Value":"sha256-2Uredu4v\u002BSZCFvW3DT7DbUqXMQt/tXyHfq5JImBy\u002BgI="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"305438"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00222Uredu4v\u002BSZCFvW3DT7DbUqXMQt/tXyHfq5JImBy\u002BgI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2Uredu4v\u002BSZCFvW3DT7DbUqXMQt/tXyHfq5JImBy\u002BgI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"305438"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00222Uredu4v\u002BSZCFvW3DT7DbUqXMQt/tXyHfq5JImBy\u002BgI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.min.8vyfqsqgz1.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8vyfqsqgz1"},{"Name":"integrity","Value":"sha256-REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"73941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"73941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.min.js.dr2y3ypszt.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dr2y3ypszt"},{"Name":"integrity","Value":"sha256-h4JyI7pWCx7p7dd4fT5TSd6K5aFF3NM86T/IrD0w1TA="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"222455"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022h4JyI7pWCx7p7dd4fT5TSd6K5aFF3NM86T/IrD0w1TA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h4JyI7pWCx7p7dd4fT5TSd6K5aFF3NM86T/IrD0w1TA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"222455"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022h4JyI7pWCx7p7dd4fT5TSd6K5aFF3NM86T/IrD0w1TA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.xhul9g1j9l.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xhul9g1j9l"},{"Name":"integrity","Value":"sha256-pUbLCtBZm75NXilVN0hdNqglbgifFmwdeu12\u002BKSRP4c="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.esm.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"140276"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pUbLCtBZm75NXilVN0hdNqglbgifFmwdeu12\u002BKSRP4c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vBsmXh1cC1EZReP21GKclPOHZBC9Crm8nEMX/DOof78="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"149895"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vBsmXh1cC1EZReP21GKclPOHZBC9Crm8nEMX/DOof78=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.js.izt73vzjhe.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"izt73vzjhe"},{"Name":"integrity","Value":"sha256-jkJzSutKM60zGD5NDf9oIaj\u002BR7CoTxdnIz5nbjUbJlo="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"306606"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022jkJzSutKM60zGD5NDf9oIaj\u002BR7CoTxdnIz5nbjUbJlo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jkJzSutKM60zGD5NDf9oIaj\u002BR7CoTxdnIz5nbjUbJlo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"306606"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022jkJzSutKM60zGD5NDf9oIaj\u002BR7CoTxdnIz5nbjUbJlo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.min.4d85u1mtcx.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4d85u1mtcx"},{"Name":"integrity","Value":"sha256-aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60641"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"60641"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.min.js.7zxxw2drh9.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7zxxw2drh9"},{"Name":"integrity","Value":"sha256-QyKbdKb0tWNDJo17LVCpqV2nbGnIAXZP1yuGwO1KyGI="},{"Name":"label","Value":"RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.min.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"220561"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022QyKbdKb0tWNDJo17LVCpqV2nbGnIAXZP1yuGwO1KyGI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QyKbdKb0tWNDJo17LVCpqV2nbGnIAXZP1yuGwO1KyGI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"220561"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022QyKbdKb0tWNDJo17LVCpqV2nbGnIAXZP1yuGwO1KyGI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/PomodoroApp.phvkrw8hon.styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PomodoroApp.styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"phvkrw8hon"},{"Name":"integrity","Value":"sha256-k\u002BhpPy5M5fTZ2C4k/i4CwVGNk4tNxL3DOMtgn/QBdcY="},{"Name":"label","Value":"RedLoopPomodoroApp/PomodoroApp.styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4775"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k\u002BhpPy5M5fTZ2C4k/i4CwVGNk4tNxL3DOMtgn/QBdcY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:19:45 GMT"},{"Name":"Link","Value":"\u003C_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/PomodoroApp.styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PomodoroApp.styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k\u002BhpPy5M5fTZ2C4k/i4CwVGNk4tNxL3DOMtgn/QBdcY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4775"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k\u002BhpPy5M5fTZ2C4k/i4CwVGNk4tNxL3DOMtgn/QBdcY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:19:45 GMT"},{"Name":"Link","Value":"\u003C_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/ambient/zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\ambient\zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GqCkaCH50lk/0nKLmY9/vyIEwsO87vB3qdruZ2ZgNLo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4004690"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022GqCkaCH50lk/0nKLmY9/vyIEwsO87vB3qdruZ2ZgNLo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/ambient/zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.ubzdk2xzpu.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\ambient\zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ubzdk2xzpu"},{"Name":"integrity","Value":"sha256-GqCkaCH50lk/0nKLmY9/vyIEwsO87vB3qdruZ2ZgNLo="},{"Name":"label","Value":"RedLoopPomodoroApp/sounds/ambient/zapsplat_nature_thunderstorm_light_rain_backyard_drips_birds_eastern_australia_002_80657.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4004690"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022GqCkaCH50lk/0nKLmY9/vyIEwsO87vB3qdruZ2ZgNLo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/music/music_biiansu_no_sleep_for_busy_minds_016.i3g8f9crvx.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\music\music_biiansu_no_sleep_for_busy_minds_016.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i3g8f9crvx"},{"Name":"integrity","Value":"sha256-gklhUMGAv\u002B/cR\u002BEMxJFrG31LZm/SQwDDFUVtwsdC3Vo="},{"Name":"label","Value":"RedLoopPomodoroApp/sounds/music/music_biiansu_no_sleep_for_busy_minds_016.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3286061"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022gklhUMGAv\u002B/cR\u002BEMxJFrG31LZm/SQwDDFUVtwsdC3Vo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/music/music_biiansu_no_sleep_for_busy_minds_016.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\music\music_biiansu_no_sleep_for_busy_minds_016.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gklhUMGAv\u002B/cR\u002BEMxJFrG31LZm/SQwDDFUVtwsdC3Vo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3286061"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022gklhUMGAv\u002B/cR\u002BEMxJFrG31LZm/SQwDDFUVtwsdC3Vo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/music/music_kulluh_Star_Chasers_005.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\music\music_kulluh_Star_Chasers_005.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O7XKAvMNlF3eXWfldaThVT4\u002ByKbOf3XKkQvUyLCK8hI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12529659"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022O7XKAvMNlF3eXWfldaThVT4\u002ByKbOf3XKkQvUyLCK8hI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/music/music_kulluh_Star_Chasers_005.taw9bhfeey.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\music\music_kulluh_Star_Chasers_005.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"taw9bhfeey"},{"Name":"integrity","Value":"sha256-O7XKAvMNlF3eXWfldaThVT4\u002ByKbOf3XKkQvUyLCK8hI="},{"Name":"label","Value":"RedLoopPomodoroApp/sounds/music/music_kulluh_Star_Chasers_005.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12529659"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022O7XKAvMNlF3eXWfldaThVT4\u002ByKbOf3XKkQvUyLCK8hI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/soundeffects/zapsplat_bells_bell_large_ring_designed_105683.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\soundeffects\zapsplat_bells_bell_large_ring_designed_105683.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-24uXQ\u002B\u002BALvZ9eKk27YMQcLu5hPD1lDalagqskau9/js="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"72482"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u002224uXQ\u002B\u002BALvZ9eKk27YMQcLu5hPD1lDalagqskau9/js=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/soundeffects/zapsplat_bells_bell_large_ring_designed_105683.v39r11mqel.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\soundeffects\zapsplat_bells_bell_large_ring_designed_105683.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v39r11mqel"},{"Name":"integrity","Value":"sha256-24uXQ\u002B\u002BALvZ9eKk27YMQcLu5hPD1lDalagqskau9/js="},{"Name":"label","Value":"RedLoopPomodoroApp/sounds/soundeffects/zapsplat_bells_bell_large_ring_designed_105683.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72482"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u002224uXQ\u002B\u002BALvZ9eKk27YMQcLu5hPD1lDalagqskau9/js=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/soundeffects/zapsplat_bells_bell_med_large_ring_designed_105573.5degvsqcc9.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\soundeffects\zapsplat_bells_bell_med_large_ring_designed_105573.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5degvsqcc9"},{"Name":"integrity","Value":"sha256-ubvSHRhDB4BN54NRpdXc9elzj9omLJqb0yfAsGbD\u002ByQ="},{"Name":"label","Value":"RedLoopPomodoroApp/sounds/soundeffects/zapsplat_bells_bell_med_large_ring_designed_105573.mp3"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"41354"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022ubvSHRhDB4BN54NRpdXc9elzj9omLJqb0yfAsGbD\u002ByQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/sounds/soundeffects/zapsplat_bells_bell_med_large_ring_designed_105573.mp3">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sounds\soundeffects\zapsplat_bells_bell_med_large_ring_designed_105573.mp3'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ubvSHRhDB4BN54NRpdXc9elzj9omLJqb0yfAsGbD\u002ByQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"41354"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022ubvSHRhDB4BN54NRpdXc9elzj9omLJqb0yfAsGbD\u002ByQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 19:17:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="RedLoopPomodoroApp/_framework/blazor.webassembly.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\_framework\blazor.webassembly.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BvIfWRbrna1rF\u002Bs8xknbrluJxgPx4vfKB0WJ74HdICo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"57392"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BvIfWRbrna1rF\u002Bs8xknbrluJxgPx4vfKB0WJ74HdICo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 20:14:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
